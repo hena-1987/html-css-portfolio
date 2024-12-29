@@ -1,0 +1,92 @@
+.container{ 
+   margin: 0;
+   padding: 0;
+   background-color: rgb(163, 144, 144);
+   display: grid;
+   grid-template-columns: repeate(1fr, 5);
+   grid-template-rows: repeate(1fr, 10) ;
+   gap: 0;
+   height: 120vh;
+}
+.hero{
+    background-color: rgb(16, 16, 75);
+    grid-area: 1 /1 / 2 / 6;
+    padding: 30px;
+    display: inline-block;
+    color: rgb(191, 191, 226); 
+   
+    
+}
+.address{
+    background-color: rgb(80, 80, 68);
+    grid-area: 2 / 1 / 7 / 3;
+     color: rgb(191, 191, 226);
+     padding-left: 20px;
+    
+   
+}
+pro .resume{
+    background-color: rgb(191, 191, 226);
+    grid-area:  2 / 3 / 7 / 6;
+  
+ }
+ pro > resume h3{
+    color: rgb(17, 17, 17);
+    padding-left: 10px;
+ }
+ .contab{
+    background-color: rgb(170, 216, 201); 
+    grid-area: 7 / 1 / 8 / 6;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+ }
+ .contab div > p{
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 22px;  
+ }
+ 
+ .contab .butt > button{
+    background-color:rgba(0, 175, 44, 0.336);
+    border: 3px solid rgba(43, 223, 184, 0.164);
+    height: 60px;
+    width: 150px;
+    border-radius: 10%;
+    
+ }
+
+ .contab .butt > button > a p{
+    color: rgb(119, 57, 57);
+    font-size: 20px;
+    margin: 10px;
+    
+ }
+.footer {
+   background-color:rgb(119, 224, 189);
+   grid-area: 8 / 1 / 10 / 6; 
+}
+.footer > p{
+    color: rgb(129, 126, 126);
+    padding-left: 20px;
+    
+}
+
+.container > .hero > img{
+    border-radius: 60%;
+    float: left;
+   
+}
+.hero > h1{
+    color: rgb(230, 230, 217);
+    margin: 0;
+    padding: 20px 0px 0 100px;
+}
+.hero > h2{
+    margin: 0;
+    padding: 30px 0 0 140px;
+}
